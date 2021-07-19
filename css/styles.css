@@ -1,0 +1,176 @@
+
+body{
+    font-family: "Montserrat";
+    text-align:center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+p{
+    color:#8f8f8f
+}
+/* Containers */
+.container-fluid{
+    padding: 7% 10% ;
+}
+
+
+/* Headings section */
+.big-heading{
+    font-size: 4rem;
+    line-height:1.5;
+
+}
+.section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+}
+.colored-section{
+    color:#fff;
+    background-color:#ff4c68;
+
+}
+.white-colored-section{
+    background-color:#fff;
+
+}
+   
+
+
+.navbar{
+    padding:0 0 4.0rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight: "bold";
+}
+.nav-item{
+    padding:0 18px;
+    
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family: "Montserrat";
+    
+}
+.download-btn{
+    margin:5% 3% 0%;
+}
+#tittle{
+    padding:0 auto 50px;
+    text-align:left;
+}
+/* Title section */
+#tittle.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+.tittle-image{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+ 
+
+}
+
+/* Features section */
+#features{
+    
+    position:relative;
+
+   
+}
+.feature-title{
+    font-size:1.5rem;
+}
+.feature-box{
+    padding:5%;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+
+}
+
+
+/* Testimonials section*/
+#testimonials{
+    
+    background-color:#ef8172;
+    text-align:center;
+    color:#fff;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100% ;
+    margin:20px;
+
+}
+
+/* Press section */
+#press{
+    background-color:#ef8172;
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 30px;
+}
+
+
+/* pricing  section*/
+#pricing{
+    padding:7%;
+}
+.price-text{
+    font-size:3rem;
+    line-height: 1.5;
+
+}
+.pricing-colunm{
+    padding:2% 3%;
+}
+
+/* Call to action section */
+
+.btn-cta{
+    margin:3% 2% 0%;
+    padding:2% auto;
+}
+
+
+/* Footer section */
+#footer{
+    background-color: #fff;
+
+}
+.i-tag{
+    margin:2% 1%;
+    padding:7% auto;
+}
+.footer-paragraph{
+    font-weight:lighter;
+}
+
+
+
+/* Media section */
+@media(max-width:1000px){
+    #tittle{
+        text-align:center;
+    }
+    .tittle-image{
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+
